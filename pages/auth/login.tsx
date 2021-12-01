@@ -40,7 +40,7 @@ export default function Login() {
                                 <div className="ui error message"></div>
                             </form>
                             <div className="ui message">
-                                New to us? <a href="#">Sign Up</a>
+                                New to us? <a href="/auth/signup">Sign Up</a>
                             </div>
                         </div>
                     </div>

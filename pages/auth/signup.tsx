@@ -17,7 +17,7 @@ export default function Signup() {
                             <h2 className="ui teal image header">
                                 <img src="https://semantic-ui.com/examples/assets/images/logo.png" className="image" />
                                 <div className="content">
-                                    Log-in to your account
+                                    Sign-up to your account
                                 </div>
                             </h2>
                             <form className="ui large form">
@@ -34,12 +34,12 @@ export default function Signup() {
                                             <input type="password" name="password" placeholder="Password" />
                                         </div>
                                     </div>
-                                    <div className="ui fluid large teal submit button">Login</div>
+                                    <div className="ui fluid large teal submit button">Sign up</div>
                                 </div>
                                 <div className="ui error message"></div>
                             </form>
                             <div className="ui message">
-                                New to us? <a href="#">Sign Up</a>
+                                Do you have account? <a href="/auth/login">Login</a>
                             </div>
                         </div>
                     </div>

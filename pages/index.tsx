@@ -18,7 +18,7 @@ export default function Home() {
                 <a className="toc item">
                   <i className="sidebar icon"></i>
                 </a>
-                <a className="item">Home</a>
+                <a href="" className="item">Home</a>
                 <a className="item">Work</a>
                 <a className="item">Company</a>
                 <a className="item">Careers</a>
@@ -31,7 +31,6 @@ export default function Home() {
             <div className="ui text container" style={{paddingTop: 200, paddingBottom: 200}}>
               <h1 className="ui inverted header" style={{fontSize: 100}}>GAuth</h1>
               <h2>Convenient Auth service for developer.</h2>
-              <div className="ui huge primary button">Get Started <i className="right arrow icon"></i></div>
             </div>
           </div>
 
@@ -69,17 +68,17 @@ export default function Home() {
             </div>
           </div>
 
-          <div className="ui vertical stripe segment">
+          <div className="ui vertical stripe segment" style={{paddingTop: 60, paddingBottom: 60}}>
             <div className="ui text container">
-              <h3 className="ui header">Breaking The Grid, Grabs Your Attention</h3>
-              <p>Instead of focusing on content creation and hard work, we have learned how to master the art of doing nothing by providing massive amounts of whitespace and generic content that can seem massive, monolithic and worth your attention.</p>
-              <a className="ui large button">Read More</a>
+              <h3 className="ui header">Simple Auth service</h3>
+              <p>You can verify jwt token in your own server. Use jwt token easier than others!</p>
+
               <h4 className="ui horizontal header divider">
-                <a href="#">Case Studies</a>
+                <a href="">Welcome Everyone</a>
               </h4>
-              <h3 className="ui header">Did We Tell You About Our Bananas?</h3>
-              <p>Yes I know you probably disregarded the earlier boasts as non-sequitur filler content, but its really true. It took years of gene splicing and combinatory DNA research, but our bananas can really dance.</p>
-              <a className="ui large button">I'm Still Quite Interested</a>
+              <h3 className="ui header">Do you want to join us?</h3>
+              <p>We can think about </p>
+   
             </div>
           </div>
 
@@ -93,7 +92,7 @@ export default function Home() {
                 <h4 className="ui inverted header">About Us</h4>
                 <div className="ui inverted link list">
                   <a href="about" className="item">개발자 소개</a>
-                  <a href="#" className="item">서비스 소개</a>
+                  <a href="" className="item">서비스 소개</a>
                 </div>
               </div>
               <div className="three wide column">

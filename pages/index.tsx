@@ -23,7 +23,7 @@ export default function Home() {
                 <a className="item">Company</a>
                 <a className="item">Careers</a>
                 <div className="right item">
-                  <a className="ui inverted button">Log in</a>
+                  <a href="/auth/login" className="ui inverted button">Log in</a>
                   <a className="ui inverted button">Sign Up</a>
                 </div>
               </div>
